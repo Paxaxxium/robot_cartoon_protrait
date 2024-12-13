@@ -22,3 +22,5 @@ Drawing the portrait: `python integrated_client_fb_page.py`
 * Convert pixel trajerctories into world frame
 * Joint angles of robot from inverse kinematics
 * Robot draws portrait using robot control and force control
+### Citation
+part of code are attributed to `https://github.com/rpiRobotics/robotic_portrait.git` from Rensselear Polytechnic Institute
