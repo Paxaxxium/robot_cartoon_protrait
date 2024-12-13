@@ -10,3 +10,4 @@ qpsolvers==1.10.0
 scikit-learn
 blobconverter
 pyfacer
+concave_hull
