@@ -319,17 +319,17 @@ data = np.array([1, 2, np.nan, 4, np.nan, 6])
 # Find indices of non-NaN v
 
 faceseg = FaceSegmentation()
-anime = AnimeGANv3('models/AnimeGANv3_PortraitSketch.onnx')
+# anime = AnimeGANv3('models/AnimeGANv3_PortraitSketch.onnx')
 # img=cv2.imread('imgs/'+"test_logo"+'_resized.png')
-img = cv2.imread("WIN_20241210_10_37_43_Pro.jpg")
+# img = cv2.imread("WIN_20241210_10_37_43_Pro.jpg")
 FACE_PORTRAIT = True
 TEMP_DATA_DIR = 'temp_data/'
 
 if FACE_PORTRAIT:
-    gray_image_masked,image_mask,face_mask,_ = faceseg.get_face_mask(img)
-    anime_img = anime.forward(gray_image_masked)
-    img_gray=cv2.cvtColor(anime_img, cv2.COLOR_BGR2GRAY)
-    cv2.imwrite(TEMP_DATA_DIR+'img_out.jpg',anime_img)
+    # gray_image_masked,image_mask,face_mask,_ = faceseg.get_face_mask(img)
+    # anime_img = anime.forward(gray_image_masked)
+    # img_gray=cv2.cvtColor(anime_img, cv2.COLOR_BGR2GRAY)
+    # cv2.imwrite(TEMP_DATA_DIR+'img_out.jpg',anime_img)
     # edited_image = cv2.imread(TEMP_DATA_DIR+'img_out.jpg')
     ###############################################
     path = "C:\\Users\\Peijing Xu\\projects\\wen_research\\robotic_portrait\\Screenshot 2024-12-09 161747.png"
