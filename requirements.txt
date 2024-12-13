@@ -1,0 +1,12 @@
+beautifulsoup4
+RobotRaconteurCompanion
+matplotlib
+opencv-python
+tesseract-robotics
+general-robotics-toolbox
+scipy
+onnxruntime
+qpsolvers==1.10.0
+scikit-learn
+blobconverter
+pyfacer
