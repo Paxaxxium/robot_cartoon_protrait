@@ -13,7 +13,7 @@ Drawing the portrait: `python integrated_client_fb_page.py`
 ## Output
 * Print out the segementation colors used by pyfacer
 * Print out the dimension of the input image
-* 13 different trajectories used to draw the image
+* 13 different trajectories(stored in CSV files) used to draw the image
   * 2 for eyes(each)
   * 2 for eyebrows(each)
   * 2 for lips
