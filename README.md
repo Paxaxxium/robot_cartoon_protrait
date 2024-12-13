@@ -7,3 +7,4 @@
 ## Instructions
 Copy absolute path of image into path object in experiment.py
 Then run using  `python.exe/path + experiement.py `
+Drawing the portrait: `python integrated_client_fb_page.py`
